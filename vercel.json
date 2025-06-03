@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/log-login.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/log-login",
+      "methods": ["POST"],
+      "dest": "/api/log-login.js"
+    }
+  ]
+}
