@@ -1,8 +1,7 @@
 {
-  "name": "5G88-api",
+  "name": "5g88-api",
   "version": "1.0.0",
-  "description": "API for logging login to Airtable",
-  "main": "api/log-login.js",
+  "type": "module",
   "dependencies": {
     "axios": "^1.4.0"
   }
