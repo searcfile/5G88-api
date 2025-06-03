@@ -20,7 +20,7 @@ module.exports = async (req, res) => {
         fields: {
           Name: name,
           Email: email,
-          Timestamp: new Date().toISOString()
+          Timestamp: new Date().toISOString() 
         }
       },
       {
